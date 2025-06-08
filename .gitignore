@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+
+# Allure results and reports
+allure-results/
+allure-report/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code configs
+.vscode/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local

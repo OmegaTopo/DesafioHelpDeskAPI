@@ -1,0 +1,19 @@
+{
+  "name": "projeto_api",
+  "version": "1.0.0",
+  "description": "Projeto Helpdesk API",
+  "main": "index.js",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.4.1"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test:allure": "cypress run --env allure=true && npm run report",
+    "report": "allure generate allure-results --clean && allure open",
+    "clean": "rimraf allure-results allure-report"
+  },
+  "author": "",
+  "license": "ISC"
+}
